@@ -20,6 +20,7 @@ mongoose.connect("mongodb+srv://yogendra:yogendra@cluster0.r2gbftx.mongodb.net/j
     console.error('Error connecting to the database:', err);
   });
 
+console.log("hello")
 // Routes
 app.use('/blogs', blogRoutes);
 
