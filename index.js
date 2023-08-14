@@ -1,4 +1,4 @@
-const express = require('express');
+onst express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
 const cors = require('cors')
@@ -20,7 +20,6 @@ mongoose.connect("mongodb+srv://yogendra:yogendra@cluster0.r2gbftx.mongodb.net/j
     console.error('Error connecting to the database:', err);
   });
 
-console.log("hello")
 // Routes
 app.use('/blogs', blogRoutes);
 
